@@ -1,0 +1,200 @@
+@media (max-width: 1100px) {
+    .header_nav_modile {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-banner-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 80px;
+        color: #FFFFFF;
+        background-size: cover;
+        background-position: center;
+        max-width: 68%;
+    }
+
+    .newExp--title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 55px;
+        color: #FFFFFF;
+        margin-bottom: 45px;
+    }
+
+    .wrapper_section--info {
+        text-align: center;
+    }
+
+    .wrapper_section--info div {
+        flex-direction: column;
+    }
+
+    .wrapper_section--info div span {
+        margin-right: 0 !important;
+        margin-bottom: 10px;
+    }
+
+    .wrapper_newExp {
+        margin: 20px 0;
+    }
+
+    .section--spec--title-two {
+        margin-left: 30px;
+    }
+
+    .bgi--grey {
+        margin: 20px 0;
+    }
+
+    .bgi--grey_mobile {
+        position: relative;
+        margin: 20px 0;
+    }
+
+    .mobile_top_slider {
+        margin-top: 50px;
+    }
+
+    .bgi--grey_mobile:before {
+        content: "";
+        width: 140px;
+        z-index: -1;
+        height: 140px;
+        background-color: #F1F4F6;
+        position: absolute;
+    }
+
+    .wrapper_section--new--as {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        justify-content: flex-end;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .img_photo_1 {
+        background-size: 123%;
+    }
+
+    .img_photo_2 {
+        background-size: 123%;
+    }
+
+    .img_photo_3 {
+        background-size: 123%;
+    }
+
+    .custom__health_p_img {
+        min-height: 270px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-banner-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: inherit;
+        color: #FFFFFF;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .custom__health_p {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .section--spec--title, .section-health--title, .section--value--title, .wrapper_association--title, .wrapper_association-green {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: inherit;
+    }
+
+    .slider--text {
+        width: 100%;
+    }
+
+    .wrapper_association_bg_ex {
+        text-align: center;
+    }
+
+    .wr_association_ass {
+        margin: 0;
+    }
+}
+
+@media (max-width: 568px) {
+    .main-banner-title {
+        font-size: 28px;
+    }
+    .menu_mobile_left {
+        display: none;
+    }
+    .menu_mobile_right {
+        display: block;
+    }
+    .wrapper_nav_header_d {
+        padding: 15px;
+    }
+    .mobile--fled {
+        flex-direction: column;
+    }
+    .bimages {
+        display: none;
+    }
+    .burgerMenu {
+        cursor: pointer;
+        padding: 0;
+        width: 40px;
+    }
+    .wrapper_association_bg_ex_big {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: inherit;
+        color: #33A936;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .wp_column {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 160px;
+    }
+    .newExp--title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: inherit;
+        color: #FFFFFF;
+        margin-bottom: 45px;
+    }
+    .section--value .slick-next {
+        left: 100px;
+        /* right: 0; */
+    }
+    .section--value .slick-prev {
+        left: 10px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .main-banner-title {
+
+    }
+
+    .main-banner {
+        justify-content: flex-start;
+        padding: 20px;
+    }
+}
